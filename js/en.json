@@ -1,0 +1,13 @@
+{
+    "nav":{
+        "home" : "Home",
+        "proyect": "Projects",
+        "contact": "Contact"
+    },
+    "info":{
+        "name" : "Hi, I'am Federico Jácome",
+        "like" : "I like",
+
+        "words": ["learn new things", "programming", "work in a team"]
+    }
+}
