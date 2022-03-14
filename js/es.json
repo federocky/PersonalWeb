@@ -9,5 +9,8 @@
         "like" : "Me gusta",
 
         "words": ["aprender cosas nuevas", "programar", "trabajar en equipo"]
-    }
+    },
+    "cards": [{
+        "description": "Aplicación de rutas de mountain bike, proyecto personal a modo de hobbie donde se puede consultar una serie de rutas, ver el track sobre un mapa, descargar la ruta. En proceso de ampliación agregando un backend con .NET donde se mangejarán mensajes sobre las rutas, puntuación de rutas y mas adelante, registro de usuarios."   
+    }]
 }

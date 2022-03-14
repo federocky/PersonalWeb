@@ -9,5 +9,8 @@
         "like" : "I like",
 
         "words": ["learn new things", "programming", "work in a team"]
-    }
+    },
+    "cards": [{
+        "description": "App with mountain bike routes, personal application, where routes can be found, see the trak on a map, download the route in gpx format. Currently creating a backend with .NET technology where messages on routes will be handled, rating routes and, one day, user register and login."   
+    }]
 }
