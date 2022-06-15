@@ -18,8 +18,8 @@
             <div id="nav">
                 <nav>
                     <ul>
-                        <li><a href="#" id="text_home">Inicio</a></li>
-                        <li><a href="#" id="text_proyect">Proyectos</a></li>
+                        <li><a href="#nav" id="text_home">Inicio</a></li>
+                        <li><a href="#cardsBackground" id="text_proyect">Proyectos</a></li>
                         <li><a href="#" id="text_contact">Contacto</a></li>
                     </ul>
                 </nav>
@@ -45,9 +45,9 @@
                 <h2>Web developer</h2>
                 <h2 id="text_like">Me gusta <span class="txt-type" data-wait="3000"></span></h2>
                 <div id="buttons">
-                    <button>Linkedin <i class="fab fa-linkedin"></i></button>
-                    <button>Curriculum <i class="fas fa-file-download"></i></button>
-                    <button>GitHub <i class="fab fa-github-square"></i></button>
+                    <a target="_blank" href="https://www.linkedin.com/in/federicojacome/"><button>Linkedin <i class="fab fa-linkedin"></i></button></a>
+                    <a href=""><button>Curriculum <i class="fas fa-file-download"></i></button></a>
+                    <a target="_blank" href="https://github.com/federocky"><button>GitHub <i class="fab fa-github-square"></i></button></a>
                 </div>
                 
             </div>
@@ -61,7 +61,7 @@
     </section>
 
     <div id="cardsBackground">
-        <h2>Proyectos</h2>
+        <h2 id="proyect_title">Proyectos</h2>
         <section class="container" id="cardsContainer">
 
 
@@ -75,7 +75,7 @@
                     </div>
                     <div class="back">
                         <h3>MTB Málaga</h3>
-                        <h4>Angular, Type Script, HTML, SCSS</h4>
+                        <h4>Angular, .NET, SQL server, C#, Type Script, SCSS</h4>
                         <p id="text_mtbMalaga">Descripción de la ruta.</p>
                         <div>
                             <a target="_blank" href="http://mtbmalaga.online/"><i class="fas fa-cloud"></i> MTB Málaga</a>
@@ -95,9 +95,10 @@
                         </div>
                     </div>
                     <div class="back">
-                        <h3>Back Side One</h3>
-                        <p>Content in card one</p>
-                        <a href="#">Button 1</a>
+                        <h3>Mimascota.com</h3>
+                        <h4>Angular, Node, SQL, Type Script</h4>
+                        <p id="text_mimascota">Descripción de la ruta.</p>
+                        <a target="_blank" href="https://github.com/federocky/Animalia-v2"><i class="fab fa-github"></i> Github</a>
                     </div>
                 </div>
             </article>
@@ -111,9 +112,13 @@
                         </div>
                     </div>
                     <div class="back">
-                        <h3>Back Side One</h3>
-                        <p>Content in card one</p>
-                        <a href="#">Button 1</a>
+                        <h3>RichArt</h3>
+                        <h4>HTML, CSS, JS</h4>
+                        <p id="text_richart">Descripción de la ruta.</p>
+                        <div>
+                            <a target="_blank" href="https://richartconencanto.es/"><i class="fas fa-cloud"></i> RichArt</a>
+                            <a target="_blank" href="https://github.com/federocky/RichArt"><i class="fab fa-github"></i> Github</a>
+                        </div>
                     </div>
                 </div>
             </article>
@@ -121,22 +126,93 @@
             <article>
                 <div class="card">
                     <div class="front">
-                        <img src="./img/tournamentTracker.jpg" alt="">
+                        <img src="./img/Richart.jpg" alt="">
                         <div>
                             <i class="fas fa-redo"></i>
                         </div>
                     </div>
                     <div class="back">
-                        <h3>Back Side One</h3>
-                        <p>Content in card one</p>
-                        <a href="#">Button 1</a>
+                        <h3>RichArt</h3>
+                        <h4>HTML, CSS, JS</h4>
+                        <p id="text_richart">Descripción de la ruta.</p>
+                        <div>
+                            <a target="_blank" href="https://richartconencanto.es/"><i class="fas fa-cloud"></i> RichArt</a>
+                            <a target="_blank" href="https://github.com/federocky/RichArt"><i class="fab fa-github"></i> Github</a>
+                        </div>
                     </div>
                 </div>
             </article>
 
-
         </section>
 
+        <section class="container">
+            <article id="more_projects">
+                <i class="fab fa-github"></i> 
+                <p id="github_text">Mas proyectos en mi página de</p>
+            </article>
+        </section>
+    </div>
+
+<!-- -------------------------------------------- -->
+    <div class="timeline-container">
+        <div class="timeline">
+          <ul>
+
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">04/2021 - 07-2022</h3>
+                <h1>Verisk Specialty Business Solutions</h1>
+                <h2 id="verisk-work-position">Desarrollador Web</h2>
+                <p id="verisk-work-description">Descripcion del puesto</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">20th may, 2010</h3>
+                <h1>Moochers Jazz Cafe</h1>
+                <h2 id="moochers-work-position">Camarero</h2>
+                <p id="moochers-work-description">Descripcion del puesto</p>
+              </div>
+            </li>
+
+            <li>
+              <div class="timeline-content">
+                <h3 class="date">20th may, 2010</h3>
+                <h1>Moshimo Brighton UK</h1>
+                <h2 id="moshimo-work-position">Camarero</h2>
+                <p id="moshimo-work-description">Descripcion del puesto</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+<!-- -------------------------------------------- -->
+
+    <div id="formBackground">
+        <section id="form">
+            <h2 id="form_title">Contáctame</h2>
+            
+            <form action="0ce7eaea7083a9a51287821935fafdc4">
+                <label id="form_name" for="name">Nombre:</label>
+                <input type="text" name="name" id="formName">
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="formEmail">
+
+                <label id="form_message" for="message">Mensaje:</label>
+                <textarea name="message" cols="30" rows="10" id="formMessage"></textarea>
+                <input id="form_submit" type="submit" value="Enviar">   
+         </form>
+            
+        </section>
+    </div>
+
+    <div id="footer">
+        <footer class="container">
+            <small id="develop_by">Desarrollado por: </small><small>Federico Andrés Jácome Castañeda</small>
+        </footer>
     </div>
 
     

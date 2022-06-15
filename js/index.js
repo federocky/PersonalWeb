@@ -3,6 +3,7 @@ var first = true;
 var text = {};
 var time;
 var btn = document.getElementById('btn_change_language');
+const d = document;
 
 
 btn.addEventListener('change', function(){
@@ -39,12 +40,52 @@ function writeText(){
     document.getElementById("text_contact").innerText = text.nav.contact;
     document.getElementById("text_name").innerText = text.info.name;
     document.getElementById("text_like").innerHTML = text.info.like + ' <span class="txt-type" data-wait="3000"></span>'
+    document.getElementById("proyect_title").innerHTML = text.info.proyectTitle;
+    document.getElementById("github_text").innerHTML = text.info.githubText;
+    document.getElementById("form_title").innerHTML = text.form.title;
+    document.getElementById("form_name").innerHTML = text.form.name;
+    document.getElementById("form_message").innerHTML = text.form.message;
+    document.getElementById("form_submit").value = text.form.send;
+    document.getElementById("develop_by").innerHTML = text.footer.developedBy;
+    document.getElementById("verisk-work-position").innerText = text.work.verisk.position;
+    document.getElementById("verisk-work-description").innerText = text.work.verisk.description;
+    document.getElementById("moochers-work-position").innerText = text.work.moochers.position;
+    document.getElementById("moochers-work-description").innerText = text.work.moochers.description;
+    document.getElementById("moshimo-work-position").innerText = text.work.moshimo.position;
+    document.getElementById("moshimo-work-description").innerText = text.work.moshimo.description;
+    
+
     if(text.cards[0].description.length > 150) document.getElementById("text_mtbMalaga").innerHTML = text.cards[0].description.substring(0,150) + "...";
     else document.getElementById("text_mtbMalaga").innerHTML = text.cards[0].description;
+    if(text.cards[1].description.length > 150) document.getElementById("text_mimascota").innerHTML = text.cards[1].description.substring(0,150) + "...";
+    else document.getElementById("text_mimascota").innerHTML = text.cards[1].description;
+    if(text.cards[2].description.length > 250) document.getElementById("text_richart").innerHTML = text.cards[2].description.substring(0,250) + "...";
+    else document.getElementById("text_richart").innerHTML = text.cards[2].description;
 }
 
+d.addEventListener('submit', (e) => {
+  e.preventDefault();
+  let name = document.getElementById('formName').value;
+  let email = document.getElementById('formEmail').value;
+  let message = document.getElementById('formMessage').value;
 
+  fetch("https://formsubmit.co/ajax/fedeandresdeveloper@gmail.com", {
+    method: "POST",
+    headers: {
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    },
+    body: JSON.stringify({
+      name: name,
+      email: email,
+      message: message
+    })
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.log(error));
 
+});
 
 
 

@@ -7,10 +7,38 @@
     "info":{
         "name" : "Hola, soy Federico Jácome",
         "like" : "Me gusta",
-
-        "words": ["aprender cosas nuevas", "programar", "trabajar en equipo"]
+        "words": ["aprender cosas nuevas", "programar", "trabajar en equipo"],
+        "proyectTitle": "Proyectos recientes",
+        "githubText": "Mas proyectos en mi página de <a target='_blank' href='https://github.com/federocky'>GitHub</a>"
+    },
+    "form": {
+        "title": "Contáctame",
+        "name": "Nombre:",
+        "message": "Mensaje:",
+        "send": "Enviar"
+    },
+    "work":{
+        "verisk":{
+            "position": "Desarrollador Web",
+            "description": "Trabajando con tecnologia .NET en una aplicacion basada en servicios."
+        },
+        "moochers":{
+            "position": "Camarero",
+            "description": "Camarero de sala."
+        },
+        "moshimo":{
+            "position": "Camarero - Cocinero - Manager",
+            "description": "desde camarero a manager pasando por cocina."
+        }
+    },
+    "footer": {
+        "developedBy": "Desarrollado por: "
     },
     "cards": [{
         "description": "Aplicación de rutas de mountain bike, proyecto personal a modo de hobbie donde se puede consultar una serie de rutas, ver el track sobre un mapa, descargar la ruta. En proceso de ampliación agregando un backend con .NET donde se mangejarán mensajes sobre las rutas, puntuación de rutas y mas adelante, registro de usuarios."   
+    },{
+        "description": "Aplicación para la gestión de un negocio dedicado a las mascotas. Realizada como trabajo de fin de FP. Tiene dos secciones principales. Tienda, donde se pueden comprar productos, catalogar, ordenar, filtar y servicio de citas, donde se puede solicitar citas dependiendo de la disponibilidad. Totalmente realizada en Type Script, tanto el fron como el back,"   
+    },{
+        "description": "Simple aplicación realizada en HTML, CSS y vanilla JS, para la promoción de productos artesanos realizados por artista local. Cuenta con información de los productos, varias imagenes y posibilidad de contacto."  
     }]
 }
