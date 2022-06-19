@@ -587,6 +587,11 @@ article .card {
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
 
+#timeline{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 .timeline-container {
   display: flex;
@@ -686,6 +691,6 @@ article .card {
     top: -30px;
   }
   .timeline ul li:hover::before {
-    background-color: aqua;
+    background-color: #0059FF;
   }
 }

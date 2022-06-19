@@ -18,17 +18,18 @@
         "send": "Enviar"
     },
     "work":{
+        "title": "Experiencia laboral",
         "verisk":{
             "position": "Desarrollador Web",
             "description": "Trabajando con tecnologia .NET en una aplicacion basada en servicios."
         },
         "moochers":{
             "position": "Camarero",
-            "description": "Camarero de sala."
+            "description": "Camarero de sala y barra en restaurante cituado en el corazón de fuengirola. Principalmente trabajando con turistas en ingles."
         },
         "moshimo":{
             "position": "Camarero - Cocinero - Manager",
-            "description": "desde camarero a manager pasando por cocina."
+            "description": "Realizando diferentes funciones en la empresa, empezando como camarero, pronto realizando funciones de cocinero y en el sushi bar y finalmente realizando las tareas propias del puesto de encargado."
         }
     },
     "footer": {

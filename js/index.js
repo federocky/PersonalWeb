@@ -53,6 +53,7 @@ function writeText(){
     document.getElementById("moochers-work-description").innerText = text.work.moochers.description;
     document.getElementById("moshimo-work-position").innerText = text.work.moshimo.position;
     document.getElementById("moshimo-work-description").innerText = text.work.moshimo.description;
+    document.getElementById("experience-title").innerText = text.work.title;
     
 
     if(text.cards[0].description.length > 150) document.getElementById("text_mtbMalaga").innerHTML = text.cards[0].description.substring(0,150) + "...";

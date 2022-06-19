@@ -18,17 +18,18 @@
         "send": "Send"
     },    
     "work":{
+        "title": "Work Experience",
         "verisk": {
             "position": "Web Developer",
             "description": "Mainly workin with .NET technology in an application base on microservices."
         },
         "moochers":{
             "position": "Waiter",
-            "description": "Floor waiter"
+            "description": "Waiter and bartender in a restaurant located by the sea in Fuengirola. Mainly working with turist customers in english."
         },
         "moshimo":{
             "position": "Waiter - Chef - Manager",
-            "description": "From waiter to manager."
+            "description": "Started as a barman and waiter, motivated for a change I started working in the sushi bar and kitchen and after a while I ended up managin the restaurant dealing with those duties."
         }
     },
     "footer": {
