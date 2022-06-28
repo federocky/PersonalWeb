@@ -37,6 +37,7 @@ function getText(){
 function writeText(){
     document.getElementById("text_home").innerText = text.nav.home;
     document.getElementById("text_proyect").innerText = text.nav.proyect;
+    document.getElementById("text_experience").innerText = text.nav.experience;
     document.getElementById("text_contact").innerText = text.nav.contact;
     document.getElementById("text_name").innerText = text.info.name;
     document.getElementById("text_like").innerHTML = text.info.like + ' <span class="txt-type" data-wait="3000"></span>'

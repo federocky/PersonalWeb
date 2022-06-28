@@ -2,6 +2,7 @@
     "nav":{
         "home" : "Inicio",
         "proyect": "Proyectos",
+        "experience": "Experiencia",
         "contact": "Contacto"
     },
     "info":{
