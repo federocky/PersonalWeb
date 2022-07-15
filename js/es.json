@@ -42,5 +42,9 @@
         "description": "Aplicación para la gestión de un negocio dedicado a las mascotas. Realizada como trabajo de fin de FP. Tiene dos secciones principales. Tienda, donde se pueden comprar productos, catalogar, ordenar, filtar y servicio de citas, donde se puede solicitar citas dependiendo de la disponibilidad. Totalmente realizada en Type Script, tanto el fron como el back,"   
     },{
         "description": "Simple aplicación realizada en HTML, CSS y vanilla JS, para la promoción de productos artesanos realizados por artista local. Cuenta con información de los productos, varias imagenes y posibilidad de contacto."  
-    }]
+    }],
+    "alert": {
+        "success": "Gracias por contactarme. Me pondre en contacto contigo en cuanto me sea posible",
+        "fail": "Error al enviar el email. Por favor contactame por email o linkedin. Gracias."
+    } 
 }

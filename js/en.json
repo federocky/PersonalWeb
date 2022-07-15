@@ -42,5 +42,9 @@
         "description": "Online full shop and appointment system application made as TFC to finish my studies as a web developer. Full stack Type Script application, node in back and angular in front. SQL for db and some bootstrap used. The application has a functional full shoping process, see products, filter, search and pagination. Handle user register, login, profile editing, address manager capable of having more than one address. Service appointment system managing dates and capability. And an admin side to control deliveries, appointments and needed CRUDS."
     },{
         "description": "A very simple vanilla JS, HTML and CSS page made for a local handcraft artist. Use PHP to send emails in the contact form. It has information about the products, images and different contact options."  
-    }]
+    }],
+    "alert": {
+        "success": "Thanks for your email. I will contact you as soon as possible.",
+        "fail": "The email cannot be send. Please contact me on email or linkedin. Thank you"
+    } 
 }

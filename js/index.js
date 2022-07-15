@@ -4,6 +4,8 @@ var text = {};
 var time;
 var btn = document.getElementById('btn_change_language');
 const d = document;
+var alertSuccess = "";
+var alertFail = "";
 
 
 btn.addEventListener('change', function(){
@@ -55,7 +57,8 @@ function writeText(){
     document.getElementById("moshimo-work-position").innerText = text.work.moshimo.position;
     document.getElementById("moshimo-work-description").innerText = text.work.moshimo.description;
     document.getElementById("experience-title").innerText = text.work.title;
-    
+    alertSuccess = text.alert.success;
+    alertFail = text.alert.fail;
 
     if(text.cards[0].description.length > 150) document.getElementById("text_mtbMalaga").innerHTML = text.cards[0].description.substring(0,150) + "...";
     else document.getElementById("text_mtbMalaga").innerHTML = text.cards[0].description;
@@ -84,13 +87,27 @@ d.addEventListener('submit', (e) => {
     })
   })
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data => {
+      console.log(data)
+
+      if(data.success) {
+        alert(alertSuccess);
+        clearForm();
+      }
+      else {
+        alert(alertFail);
+      }
+    })
     .catch(error => console.log(error));
 
 });
 
 
-
+function clearForm(){
+  document.getElementById('formName').value = "";
+  document.getElementById('formEmail').value = "";
+  document.getElementById('formMessage').value = "";
+}
 
 const TypeWriter = function(txtElement, words, wait = 3000) {
   this.txtElement = txtElement;
