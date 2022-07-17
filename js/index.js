@@ -57,6 +57,8 @@ function writeText(){
     document.getElementById("moshimo-work-position").innerText = text.work.moshimo.position;
     document.getElementById("moshimo-work-description").innerText = text.work.moshimo.description;
     document.getElementById("experience-title").innerText = text.work.title;
+    document.getElementById("moreExperienceIn").innerHTML = text.work.moreExperience;
+
     alertSuccess = text.alert.success;
     alertFail = text.alert.fail;
 

@@ -31,7 +31,8 @@
         "moshimo":{
             "position": "Waiter - Chef - Manager",
             "description": "Started as a barman and waiter, motivated for a change I started working in the sushi bar and kitchen and after a while I ended up managin the restaurant dealing with those duties."
-        }
+        },
+        "moreExperience": "More working experience in my <a target='_blank' href='https://www.linkedin.com/in/federicojacome/'>linkedin</a> page."
     },
     "footer": {
         "developedBy": "Developed by: "
