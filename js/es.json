@@ -22,15 +22,15 @@
         "title": "Experiencia laboral",
         "verisk":{
             "position": "Desarrollador Web",
-            "description": "Trabajando con tecnologia .NET en una aplicacion basada en servicios."
+            "description": "Desarrollador full stack, principalmente backend, pero también realizando funciones en el front con soltura siempre que es necesario. \rAplicación web para la gestión de seguros de diferentes tipos, para compañias situadas en London Insurance Market (Lloyd's market). Equipos internacionales con comunicación en inglés. \rTecnologías: .NET, C#, MVC, Entity Framework, SQL Server, TypeScript, Angular, RabbitMQ, Swagger, Visual Studio, Azure Devops TFS"
         },
         "moochers":{
             "position": "Camarero",
-            "description": "Camarero de sala y barra en restaurante cituado en el corazón de fuengirola. Principalmente trabajando con turistas en ingles."
+            "description": "Camarero de sala y barra en restaurante situado en el corazón de fuengirola. Principalmente trabajando con turistas en ingles."
         },
         "moshimo":{
             "position": "Camarero - Cocinero - Manager",
-            "description": "Realizando diferentes funciones en la empresa, empezando como camarero, pronto realizando funciones de cocinero y en el sushi bar y finalmente realizando las tareas propias del puesto de encargado."
+            "description": "Realizando diferentes funciones en la empresa, empezando como camarero, pasando por cocina en el sushi bar y finalmente realizando las tareas propias del puesto de encargado. Gestión de equipo, turnos, caja..."
         },
         "moreExperience": "Mas experiencia en mi página de <a target='_blank' href='https://www.linkedin.com/in/federicojacome/'>linkedin.</a>"
     },
