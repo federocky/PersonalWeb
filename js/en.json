@@ -20,6 +20,10 @@
     },    
     "work":{
         "title": "Work Experience",
+        "izertis":{
+            "position": "Web Developer",
+            "description": "Full-stack developer, mainly focused on backend, for a major international dairy company. I use technologies such as .NET, Angular, and Entity, integrating Azure services like Active Directory for user management, Functions for data synchronization, Blob Storage for storage, and Azure DevOps for project management and continuous integration through pipelines."
+        },
         "verisk": {
             "position": "Web Developer",
             "description": "Full stack developer, working mainly in backend, but also making fron end tasks when needed. \rInsurance web application delivering software for companies based in the London Insurance Market (Lloyd's market). International working teams with 100% comunication in english.\rTechnologies: .NET, C#, MVC, Entity Framework, SQL Server, TypeScript, Angular, RabbitMQ, Swagger, Visual Studio, Azure Devops TFS"

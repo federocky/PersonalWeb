@@ -52,6 +52,8 @@ function writeText(){
     document.getElementById("develop_by").innerHTML = text.footer.developedBy;
     document.getElementById("verisk-work-position").innerText = text.work.verisk.position;
     document.getElementById("verisk-work-description").innerText = text.work.verisk.description;
+    document.getElementById("izertis-work-position").innerText = text.work.izertis.position;
+    document.getElementById("izertis-work-description").innerText = text.work.izertis.description;
     document.getElementById("moochers-work-position").innerText = text.work.moochers.position;
     document.getElementById("moochers-work-description").innerText = text.work.moochers.description;
     document.getElementById("moshimo-work-position").innerText = text.work.moshimo.position;
@@ -66,8 +68,8 @@ function writeText(){
     else document.getElementById("text_mtbMalaga").innerHTML = text.cards[0].description;
     if(text.cards[1].description.length > 150) document.getElementById("text_mimascota").innerHTML = text.cards[1].description.substring(0,150) + "...";
     else document.getElementById("text_mimascota").innerHTML = text.cards[1].description;
-    if(text.cards[2].description.length > 250) document.getElementById("text_richart").innerHTML = text.cards[2].description.substring(0,250) + "...";
-    else document.getElementById("text_richart").innerHTML = text.cards[2].description;
+    if(text.cards[2].description.length > 250) document.getElementById("text_whatToEat").innerHTML = text.cards[2].description.substring(0,250) + "...";
+    else document.getElementById("text_whatToEat").innerHTML = text.cards[2].description;
 }
 
 d.addEventListener('submit', (e) => {

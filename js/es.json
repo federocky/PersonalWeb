@@ -20,9 +20,13 @@
     },
     "work":{
         "title": "Experiencia laboral",
+        "izertis":{
+            "position": "Desarrollador Web",
+            "description": "Desarrollador full stack, principalmente backend, de aplicación para gran compañia láctea a nivel internacional. Utilizando .NET, Angular, Entity e integrando servicios Azure como Active directory para la gestión de usuarios, Functions para la sincronización de datos, Blob storage para almacenamiento y azure devops para gestión del proyecto y pipelines para integración continua."
+        },
         "verisk":{
             "position": "Desarrollador Web",
-            "description": "Desarrollador full stack, principalmente backend, pero también realizando funciones en el front con soltura siempre que es necesario. \rAplicación web para la gestión de seguros de diferentes tipos, para compañias situadas en London Insurance Market (Lloyd's market). Equipos internacionales con comunicación en inglés. \rTecnologías: .NET, C#, MVC, Entity Framework, SQL Server, TypeScript, Angular, RabbitMQ, Swagger, Visual Studio, Azure Devops TFS"
+            "description": "Desarrollador full stack, principalmente backend, pero también realizando funciones en el front con soltura siempre que es necesario. \rAplicación web para la gestión de seguros de diferentes tipos, para compañias situadas en London Insurance Market (Lloyd's market). Equipos internacionales con comunicación en inglés. \rTecnologías: .NET, Entity Framework, SQL Server, Angular, RabbitMQ, Swagger, Azure Devops"
         },
         "moochers":{
             "position": "Camarero",
@@ -42,7 +46,7 @@
     },{
         "description": "Aplicación para la gestión de un negocio dedicado a las mascotas. Realizada como trabajo de fin de FP. Tiene dos secciones principales. Tienda, donde se pueden comprar productos, catalogar, ordenar, filtar y servicio de citas, donde se puede solicitar citas dependiendo de la disponibilidad. Totalmente realizada en Type Script, tanto el fron como el back,"   
     },{
-        "description": "Simple aplicación realizada en HTML, CSS y vanilla JS, para la promoción de productos artesanos realizados por artista local. Cuenta con información de los productos, varias imagenes y posibilidad de contacto."  
+        "description": "Aplicacion movil realizada con ionic para solventar un debate recurrente en mi casa. Que hacemos de cenar? la idea es que en base a una lista de alimentos disponibles te devuelva una lista de posibles recetas que puedes y sueles realizar."  
     }],
     "alert": {
         "success": "Gracias por contactarme. Me pondre en contacto contigo en cuanto me sea posible",
