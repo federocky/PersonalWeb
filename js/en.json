@@ -7,8 +7,9 @@
     },
     "info":{
         "name" : "Hi, I'am Federico Jácome",
+        "work" : "Web developer",
         "like" : "I like",
-        "words": ["learn new things", "programming", "work in a team"],
+        "words": ["programming", "architectures", "SOLID"],
         "proyectTitle": "Recent proyects",
         "githubText": "More projects in my <a target='_blank' href='https://github.com/federocky'>GitHub</a> page"
     },
@@ -44,7 +45,7 @@
     "cards": [{
         "description": "App with mountain bike routes, personal application, where routes can be found, see the trak on a map, download the route in gpx format. Currently creating a backend with .NET technology where messages on routes will be handled, rating routes and, one day, user register and login."   
     },{
-        "description": "Online full shop and appointment system application made as TFC to finish my studies as a web developer. Full stack Type Script application, node in back and angular in front. SQL for db and some bootstrap used. The application has a functional full shoping process, see products, filter, search and pagination. Handle user register, login, profile editing, address manager capable of having more than one address. Service appointment system managing dates and capability. And an admin side to control deliveries, appointments and needed CRUDS."
+        "description": "Chess game in C# across various versions and different architectures such as MCV, MVC passive view, MVP, Clean, and Hexagonal, using all the design patterns I could, and adhering to the SOLID principles."
     },{
         "description": "A very simple vanilla JS, HTML and CSS page made for a local handcraft artist. Use PHP to send emails in the contact form. It has information about the products, images and different contact options."  
     }],

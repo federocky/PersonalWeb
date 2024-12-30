@@ -42,6 +42,7 @@ function writeText(){
     document.getElementById("text_experience").innerText = text.nav.experience;
     document.getElementById("text_contact").innerText = text.nav.contact;
     document.getElementById("text_name").innerText = text.info.name;
+    document.getElementById("text_work").innerHTML = text.info.work;
     document.getElementById("text_like").innerHTML = text.info.like + ' <span class="txt-type" data-wait="3000"></span>'
     document.getElementById("proyect_title").innerHTML = text.info.proyectTitle;
     document.getElementById("github_text").innerHTML = text.info.githubText;
@@ -66,8 +67,8 @@ function writeText(){
 
     if(text.cards[0].description.length > 150) document.getElementById("text_mtbMalaga").innerHTML = text.cards[0].description.substring(0,150) + "...";
     else document.getElementById("text_mtbMalaga").innerHTML = text.cards[0].description;
-    if(text.cards[1].description.length > 150) document.getElementById("text_mimascota").innerHTML = text.cards[1].description.substring(0,150) + "...";
-    else document.getElementById("text_mimascota").innerHTML = text.cards[1].description;
+    if(text.cards[1].description.length > 150) document.getElementById("text_chess").innerHTML = text.cards[1].description.substring(0,150) + "...";
+    else document.getElementById("text_chess").innerHTML = text.cards[1].description;
     if(text.cards[2].description.length > 250) document.getElementById("text_whatToEat").innerHTML = text.cards[2].description.substring(0,250) + "...";
     else document.getElementById("text_whatToEat").innerHTML = text.cards[2].description;
 }
